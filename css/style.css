@@ -1,0 +1,92 @@
+:root {
+    --purple: #3A00FF;
+    --grey: #ECEBF0;
+    --footer: #000;
+    --font: 'PT Sans Narrow', sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+.main-nav-div {
+    margin-top: 15px;
+}
+
+.top-list-link {
+    color: #3A00FF;
+}
+
+.main-nav-link {
+    color: black;
+}
+
+.main-nav-link:hover {
+    border-bottom: 5px solid #3A00FF;
+}
+
+.btn-nav-link {
+    border-radius: 5px;
+    background-color: #3A00FF;
+    color: white;
+}
+
+.header {
+    padding-top: 20px;
+    box-shadow: 0px 8px 8px 0px #999;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.text-col {
+    margin-top: 100px;
+}
+
+.location-link {
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.location-text {
+    margin-top: 7px;
+}
+
+#topFooterSection {
+    background-color: var(--grey);
+}
+
+#telephoneH3, #emailH3, #addressH3 {
+    font-size: 24px;
+}
+
+.footer-heading {
+    font-family: var(--font);
+    font-size: 35px;
+}
+
+.img-col {
+    margin-top: 50px;
+}
+
+.bottom-colophon {
+    margin: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+/* #termsColophon1, #termsColophon2 {
+    border-right: 3px solid white;
+} */
+
+#topColophon {
+    font-size: 20px;
+    color: white;
+}
+
+#colophonSection {
+    background-color: #000;
+}
+
+
+
+
